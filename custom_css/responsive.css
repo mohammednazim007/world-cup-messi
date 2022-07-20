@@ -1,0 +1,77 @@
+/* =====================navbar start=========================== */
+@media (max-width: 992px) {
+  .letf_text h1 {
+    font-size: 2.2rem;
+  }
+
+  section.playe_section {
+    margin: 2rem 1rem;
+  }
+  .wraper_block {
+    grid-template-rows: 100% 1fr;
+  }
+
+  .letf_text h1 {
+    font-size: 2.1rem;
+  }
+  .letf_text {
+    padding: 2rem 1rem;
+  }
+  .letf_text span {
+    font-size: 1rem;
+  }
+}
+
+/* ============== (768)================ */
+@media (max-width: 768px) {
+  .single_block h3 {
+    width: 338px;
+}
+  section.playe_section {
+    flex-direction: column;
+  }
+
+  .letf_text {
+    max-width: 100%;
+    padding: 1rem 6rem;
+  }
+  .right_image {
+    max-width: 100%;
+    margin-top: 2rem;
+  }
+  a.bars {
+    display: block;
+    padding-right: 1rem;
+  }
+
+  ul.li_list li {
+    display: none;
+  }
+}
+/* =====================navbar end=========================== */
+
+/* ====================three btn start============================ */
+@media (max-width: 992px) {
+  section.container {
+    flex-direction: column;
+  }
+
+  .left_three_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: white;
+    flex-wrap: wrap;
+  }
+  .right_block_main {
+    padding: 0rem 1rem;
+}
+}
+/* ====================three btn end============================ */
+
+/* ================================================ */
+/* ================================================ */
+
+/* ================================================ */
+/* ================================================ */
